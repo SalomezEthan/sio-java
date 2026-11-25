@@ -1,0 +1,2 @@
+Le Jeu de Nim (Jeu des Allumettes)
+Principe : On démarre avec un tas de 21 allumettes. À tour de rôle, le joueur et l'ordinateur peuvent en retirer 1, 2 ou 3. Celui qui prend la dernière allumette a perdu.

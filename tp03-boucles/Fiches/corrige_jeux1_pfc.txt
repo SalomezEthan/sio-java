@@ -1,0 +1,26 @@
+ public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        Random rand = new Random();
+        char nouvelle = 'o';
+
+        do {
+            int choix_ordi = rand.nextInt(3) + 1;
+
+            System.out.println("Que veux tu jouer ? 1. pierre 2. feuille 3. ciseaux");
+            int choix = sc.nextInt();
+
+            if (choix == choix_ordi) {
+                System.out.println("match nul !");
+            } else {
+                if ((choix == 1 && choix_ordi == 3) || (choix == 2 && choix_ordi == 1) || (choix == 3 && choix_ordi == 2)) {
+                    System.out.println("Joueur gagne !");
+                } else {
+                    System.out.println("Ordi gagne !");
+                }
+            }
+
+            System.out.println("Nouvelle partie ? o/n ?");
+            nouvelle = sc.next().charAt(0);
+
+        }while(nouvelle == 'o');
+    }

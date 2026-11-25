@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "tp-calendar_162fd599"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:allo}",
+            "name": "Debug allo (allo)",
+            "target": "allo",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug allo (allo)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:allo}",
+            "name": "Release allo (allo)",
+            "target": "allo",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release allo (allo)"
+        }
+    ]
+}
